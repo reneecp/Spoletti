@@ -1,0 +1,84 @@
+body{
+  margin:0
+}
+
+.logo{
+  margin:5px;
+  height: 100px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #ff5a00;
+  font-size: 50px;
+}
+
+
+.container{
+  width:1000px;
+  margin:auto;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.product{
+  position:relative;;
+  top: 5px;
+  width: 33.1%;
+  height: 330px;
+  float:left;
+  border: 0;
+}
+
+.product img{
+  margin: auto;
+  display: block;
+  width: 95%;
+}
+
+.product .title{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+
+.product .price{
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  margin: 0;
+  font-size: 23px;
+  color: #ff5a00
+}
+
+@media (max-width: 800px) {
+  .product{
+    width: 100%;
+    }
+
+
+  .product .title{
+    font-size: 60px;
+    float: left;
+  text-align: center;
+  position:relative;
+  left: 120px;
+  }
+
+  .product .price{
+    font-size: 80px;
+    position:relative;
+    top: 100px;
+    right: 120px;
+
+  }
+
+  .product img{
+      width:43%;
+    float: left;
+  }
+
+  .banner {
+    display:none;
+  }
+}
